@@ -37,7 +37,7 @@ export const NAV_DATA: NavData[] = [
   },
 
   {
-    title: '截图工具',
+    title: '截图翻译',
     items: [
       {
         icon: 'https://pixpinapp.com/favicon.ico',
@@ -47,9 +47,15 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: 'https://zh.snipaste.com/favicon.ico',
-        title: 'PixPin（强烈推荐！）',
+        title: 'PixPin',
         desc: 'Snipaste 是一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上！',
         link: 'https://zh.snipaste.com/download.html',
+      },
+      {
+        icon: 'https://s.immersivetranslate.com/assets/r2-uploads/favicon.png',
+        title: '沉浸式翻译',
+        desc: '全网口碑炸裂的双语对照网页翻译插件',
+        link: 'https://immersivetranslate.com/zh-Hans/',
       },
     ],
   },

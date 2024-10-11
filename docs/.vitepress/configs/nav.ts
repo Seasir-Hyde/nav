@@ -21,8 +21,8 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: '桌面客户端',
     items: [
-      { text: '64位 适用于win10以上', link: 'https://client.salesmartly.com/app/desktop/SaleSmartly-windows.zip' },
-      { text: '32位 适用于win10以下', link: 'https://client.salesmartly.com/app/update/SaleSmartly-1.5.5-ia32.exe' },
+      { text: '64位 win10以上（右键复制链接）', link: 'https://client.salesmartly.com/app/desktop/SaleSmartly-windows.zip' },
+      { text: '32位 win10以下（右键复制链接）', link: 'https://client.salesmartly.com/app/update/SaleSmartly-1.5.5-ia32.exe' },
     ]
   },
   {
