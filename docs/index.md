@@ -17,7 +17,7 @@ hero:
     #   link: http://tool.liumingye.cn/music/#/
     #   theme: alt
     - text: 快速导航
-      link: /nav/
+      link: /nav/SaleSmartly/
     # - text: 测试页
     #   link: /test
     #   theme: alt
@@ -25,7 +25,7 @@ features:
   - icon: 📖
     title: Ss内部导航
     details: 一站式个人Ss内部导航页面
-    link: /nav/
+    link: /nav/SaleSmartly/
     linkText: 查看更多
   - icon: 📝
     title: 内部知识库
