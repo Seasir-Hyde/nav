@@ -80,6 +80,12 @@ git push
 配置更改 (Config): git commit -m "config(eslint): update rules for best practices"
 ```
 
+## 待实现功能
+
+- api 接口对接
+- 增加搜索功能
+- 一键复制功能
+
 ::: tip
 该导航由 [maomao](https://github.com/maomao1996) 开发，由[666seasir666](https://github.com/)修改。保留版权声明！
 :::

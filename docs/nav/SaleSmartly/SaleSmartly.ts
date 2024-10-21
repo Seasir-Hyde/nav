@@ -132,12 +132,6 @@ export const NAV_DATA: NavData[] = [
         desc: '客户担心数据安全可发',
         link: 'https://www.salesmartly.com/blog/docs/salesmartly-authoritative-certification',
       },
-      {
-        icon: 'https://www.partnershare.net/defaultfavicon.ico',
-        title: 'PartnerShare',
-        desc: 'SaaS品牌合作伙伴营销引领者',
-        link: 'https://www.partnershare.net/',
-      },
     ],
   },
 ]

@@ -31,6 +31,7 @@ export default defineConfig({
     ['style', {}, `
     #waifu {
       right: 98px;
+      width: 0px;
     }
 
     #live2d {
