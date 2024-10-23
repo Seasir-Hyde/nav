@@ -57,6 +57,18 @@ export const NAV_DATA: NavData[] = [
         desc: '全网口碑炸裂的双语对照网页翻译插件',
         link: 'https://immersivetranslate.com/zh-Hans/',
       },
+      {
+        icon: 'https://www.gstatic.com/devrel-devsite/prod/v0d244f667a3683225cca86d0ecf9b9b81b1e734e55a030bdcd3f3094b835c987/cloud/images/favicons/onecloud/super_cloud.png',
+        title: '谷歌翻译官方价格',
+        desc: '谷歌翻译官方价格',
+        link: 'https://cloud.google.com/translate?hl=zh-cn#pricing',
+      },
+      {
+        icon: 'https://www.gstatic.com/devrel-devsite/prod/v0d244f667a3683225cca86d0ecf9b9b81b1e734e55a030bdcd3f3094b835c987/cloud/images/favicons/onecloud/super_cloud.png',
+        title: '谷歌翻译官方开发者文档',
+        desc: '谷歌翻译官方开发者文档',
+        link: 'https://cloud.google.com/translate/docs/overview?hl=zh_CN',
+      },
     ],
   },
 

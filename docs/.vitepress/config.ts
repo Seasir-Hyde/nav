@@ -30,8 +30,9 @@ export default defineConfig({
     // 插入内联 CSS 调整看板娘的位置和层级
     ['style', {}, `
     #waifu {
+      z-index: -1;  /* 确保元素在其他元素下方 */
+      pointer-events: none; /* 禁止元素捕获点击事件 */
       right: 98px;
-      width: 0px;
     }
 
     #live2d {
