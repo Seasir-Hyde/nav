@@ -66,6 +66,26 @@ git commit -m "feat(auth): 输入您提交的内容信息"
 git push
 ```
 
+## 安装运行
+
+### 安装依赖
+
+```bash
+pnpm install
+```
+
+### 本地开发环境启动
+
+```bash
+pnpm dev
+```
+
+### 生产环境打包
+
+```bash
+pnpm build
+```
+
 ## 常见的提交类型及示例
 
 ```bash

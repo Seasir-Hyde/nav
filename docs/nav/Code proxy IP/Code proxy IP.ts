@@ -88,7 +88,18 @@ export const NAV_DATA: NavData[] = [
         desc: '解析ip网络位置',
         link: 'https://www.iplocation.net/',
       },
-
+      {
+        icon: 'https://www.ipify.org/static/images/apple-icon-60x60.png',
+        title: 'ipify API',
+        desc: '查看IPv4 和 IPv6信息）',
+        link: 'https://www.ipify.org/',
+      },
+      {
+        icon: 'https://cdn.ipinfo.io/static/deviceicons/android-icon-48x48.png',
+        title: 'IPinfo',
+        desc: '查看IPv4 和 IPv6信息',
+        link: 'https://www.iplocation.net/',
+      },
 
     ],
   },

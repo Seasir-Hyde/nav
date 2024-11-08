@@ -6,7 +6,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     text: '家', items: [
       { text: '首页', link: '/' },
       { text: '关于我们', link: 'https://github.com/666seasir666' },
-      { text: 'DEMO网站', link: 'https://soybean-admin.netlify.app/' },
+      { text: 'Demo网站', link: 'https://soybean-admin.netlify.app/' },
     ]
   },
   {
@@ -27,6 +27,10 @@ export const nav: DefaultTheme.Config['nav'] = [
     ]
   },
   {
-    text: '错误码文档',link: 'https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NQZ9DKixmAa9RDJgk9rpMq?utm_scene=person_space'
-  }
+    text: '错误码文档',
+    items: [
+      { text: '问题上报错误码', link: 'https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NQZ9DKixmAa9RDJgk9rpMq?utm_scene=person_space' },
+      { text: '企业微信错误码', link: 'https://developer.work.weixin.qq.com/document/path/96213' },
+    ]
+  },
 ]

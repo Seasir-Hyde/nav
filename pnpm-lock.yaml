@@ -25,6 +25,9 @@ importers:
       minisearch:
         specifier: ^6.3.0
         version: 6.3.0
+      vitepress-plugin-search:
+        specifier: 1.0.4-alpha.22
+        version: 1.0.4-alpha.22(flexsearch@0.7.43)(vitepress@1.0.1(@algolia/client-search@4.20.0)(@types/node@18.18.6)(async-validator@4.2.5)(postcss@8.4.33)(sass@1.69.4)(search-insights@2.9.0))(vue@3.4.21)
     devDependencies:
       '@femm/prettier':
         specifier: ^1.1.0
@@ -497,6 +500,9 @@ packages:
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
+  '@types/flexsearch@0.7.6':
+    resolution: {integrity: sha512-H5IXcRn96/gaDmo+rDl2aJuIJsob8dgOXDqf8K0t8rWZd1AFNaaspmRsElESiU+EWE33qfbFPgI0OC/B1g9FCA==}
+
   '@types/linkify-it@3.0.4':
     resolution: {integrity: sha512-hPpIeeHb/2UuCw06kSNAOVWgehBLXEo0/fUs0mw3W2qhqX89PI2yvok83MnuctYGCPrabGIoi0fFso4DQ+sNUQ==}
 
@@ -505,6 +511,9 @@ packages:
 
   '@types/lodash@4.17.9':
     resolution: {integrity: sha512-w9iWudx1XWOHW5lQRS9iKpK/XuRhnN+0T7HvdCCd802FYkT1AMTnxndJHGrNJwRoRHkslGr4S29tjm1cT7x/7w==}
+
+  '@types/markdown-it@12.2.3':
+    resolution: {integrity: sha512-GKMHFfv3458yYy+v/N8gjufHO6MSZKCOXpZc5GXIWWy8uldwfmPn98vp81gZ5f9SVw8YYBctgfJ22a2d7AOMeQ==}
 
   '@types/markdown-it@13.0.3':
     resolution: {integrity: sha512-5XXD3Bl9+UzneLlI7rQnDYzGT5+Z3XSzSyEwJK36lHmwDBKfjylsalyGxRTCXgFrX0gb++h7/UPPbwumhTKvBQ==}
@@ -900,6 +909,9 @@ packages:
   glob-parent@6.0.2:
     resolution: {integrity: sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==}
     engines: {node: '>=10.13.0'}
+
+  glob-to-regexp@0.4.1:
+    resolution: {integrity: sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==}
 
   glob@10.3.10:
     resolution: {integrity: sha512-fa46+tv1Ak0UPK1TOy/pZrIybNNt4HCv7SDzwyfiOZkvZLEbjsZkJBPtDHVshZjbecAoAGSC20MjLDG/qr679g==}
@@ -1528,6 +1540,14 @@ packages:
       terser:
         optional: true
 
+  vitepress-plugin-search@1.0.4-alpha.22:
+    resolution: {integrity: sha512-IAOEJu+kjVY+0pb6/PeRjIbr175HFFbnMdLmLjqcy7VWxkabIRZbLoQL1VUYDZl804o/Or+GaX02gsiMOnVxFA==}
+    engines: {node: ^14.13.1 || ^16.7.0 || >=18}
+    peerDependencies:
+      flexsearch: ^0.7.31
+      vitepress: ^1.0.0-rc.35
+      vue: '3'
+
   vitepress@1.0.1:
     resolution: {integrity: sha512-eNr5pOBppYUUjEhv8S0S2t9Tv95LQ6mMeHj6ivaGwfHxpov70Vduuwl/QQMDRznKDSaP0WKV7a82Pb4JVOaqEw==}
     hasBin: true
@@ -1925,6 +1945,8 @@ snapshots:
 
   '@types/estree@1.0.5': {}
 
+  '@types/flexsearch@0.7.6': {}
+
   '@types/linkify-it@3.0.4': {}
 
   '@types/lodash-es@4.17.12':
@@ -1932,6 +1954,11 @@ snapshots:
       '@types/lodash': 4.17.9
 
   '@types/lodash@4.17.9': {}
+
+  '@types/markdown-it@12.2.3':
+    dependencies:
+      '@types/linkify-it': 3.0.4
+      '@types/mdurl': 1.0.4
 
   '@types/markdown-it@13.0.3':
     dependencies:
@@ -2368,6 +2395,8 @@ snapshots:
   glob-parent@6.0.2:
     dependencies:
       is-glob: 4.0.3
+
+  glob-to-regexp@0.4.1: {}
 
   glob@10.3.10:
     dependencies:
@@ -3069,6 +3098,16 @@ snapshots:
       '@types/node': 18.18.6
       fsevents: 2.3.3
       sass: 1.69.4
+
+  vitepress-plugin-search@1.0.4-alpha.22(flexsearch@0.7.43)(vitepress@1.0.1(@algolia/client-search@4.20.0)(@types/node@18.18.6)(async-validator@4.2.5)(postcss@8.4.33)(sass@1.69.4)(search-insights@2.9.0))(vue@3.4.21):
+    dependencies:
+      '@types/flexsearch': 0.7.6
+      '@types/markdown-it': 12.2.3
+      flexsearch: 0.7.43
+      glob-to-regexp: 0.4.1
+      markdown-it: 13.0.1
+      vitepress: 1.0.1(@algolia/client-search@4.20.0)(@types/node@18.18.6)(async-validator@4.2.5)(postcss@8.4.33)(sass@1.69.4)(search-insights@2.9.0)
+      vue: 3.4.21
 
   vitepress@1.0.1(@algolia/client-search@4.20.0)(@types/node@18.18.6)(async-validator@4.2.5)(postcss@8.4.33)(sass@1.69.4)(search-insights@2.9.0):
     dependencies:
