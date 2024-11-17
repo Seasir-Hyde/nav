@@ -1,7 +1,8 @@
 import type { NavLink } from '../../.vitepress/theme/types'
 
 // 钉钉文档图标
-const icon_DingTalk_Url = 'https://img.alicdn.com/imgextra/i3/O1CN01WVKxVr22NW6oPUd9C_!!6000000007108-2-tps-96-96.png'
+const icon_DingTalk_Url =
+  'https://img.alicdn.com/imgextra/i3/O1CN01WVKxVr22NW6oPUd9C_!!6000000007108-2-tps-96-96.png'
 type NavData = {
   title: string
   items: NavLink[]
@@ -38,9 +39,15 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: 'https://webb.adspower.com/public/img/salesmartly_icon.ico',
-        title: 'SaleSmartly Home - Grafana',
-        desc: '查看平均响应和会话满意度',
-        link: 'https://webb.adspower.com/dashboards',
+        title: 'SS_响应时长区间_按月',
+        desc: '查看平响',
+        link: 'https://webb.adspower.com/d/BVsnEtWSk/01_02_ss_xiang-ying-shi-chang-qu-jian-_an-yue-response-time-interval-monthly?orgId=3',
+      },
+      {
+        icon: 'https://webb.adspower.com/public/img/salesmartly_icon.ico',
+        title: 'SS _响应会话数_按月',
+        desc: '查看满意度',
+        link: 'https://webb.adspower.com/d/i_EIWM9Sz/02_03_ss-_xiang-ying-hui-hua-shu-_an-yue-xin-ban?orgId=3',
       },
     ],
   },
@@ -56,12 +63,6 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: icon_DingTalk_Url,
-        title: '云设备需求收集表格',
-        desc: '用于收集客户ws/tg/tk个号设备信息',
-        link: 'https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnjbzPKuX9KrRADWdqbropQ?iframeQuery=',
-      },
-      {
-        icon: icon_DingTalk_Url,
         title: '每日WhatsApp客户订单表格',
         desc: '用于查客户封禁api号码ads指纹浏览器“环境编号”',
         link: 'https://alidocs.dingtalk.com/spreadsheetv2/79ZwvXDEheErGyDy/edit?scene=universalSpace&mainsiteOrigin=mainsite&docKey=32M9qP0NMNwpq015&dentryKey=79ZwvXDEheErGyDy&type=s&rnd=0.9157924747687844',
@@ -71,12 +72,6 @@ export const NAV_DATA: NavData[] = [
         title: '售前客户信息登记',
         desc: '接到需要做售前支持的劳烦在这个钉钉在线文档登记一下 然后@子健',
         link: 'https://alidocs.dingtalk.com/i/nodes/2Amq4vjg892Q7jNDfLZGZzOnW3kdP0wQ?iframeQuery=',
-      },
-      {
-        icon: icon_DingTalk_Url,
-        title: 'API号无法绑定主页和广告资料收集',
-        desc: '购买平台号码绑定主页或者广告账户收不到验证码',
-        link: 'https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gQpK4NhK9zM4NXJB5r9YAn',
       },
     ],
   },

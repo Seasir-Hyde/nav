@@ -100,6 +100,11 @@ export const NAV_DATA: NavData[] = [
         title: 'WhatsApp 商业政策',
         desc: 'WhatsApp api违反商业政策',
         link: 'https://business.whatsapp.com/policy',
+      },{
+        icon: 'https://static.xx.fbcdn.net/rsrc.php/ym/r/YQbyhl59TWY.ico',
+        title: 'Facebook政策更新',
+        desc: '我们已将 Facebook、Instagram、Messenger 和 Threads 适用的守则整合到一处，方便你更轻松地查阅。',
+        link: 'https://www.facebook.com/privacy/consent/?flow=privacy_policy_notice_usecase&params[usecase]=bundled_terms_notice_2024&params[notification_surface]=facebook_qp_megaphone&source=messenger_web_megaphone&surface=messenger_dot_com',
       },
     ],
   },
