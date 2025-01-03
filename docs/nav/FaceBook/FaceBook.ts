@@ -64,7 +64,7 @@ export const NAV_DATA: NavData[] = [
         icon: icon_Meta_Url,
         title: 'WhatsApp Business 开放平台',
         desc: '通过 WhatsApp Business 开放平台，大中型企业可与客户进行大规模交流',
-        link: 'https://developers.facebook.com/docs/whatsapp'
+        link: 'https://developers.facebook.com/docs/whatsapp',
       },
       {
         icon: icon_Meta_Url,
@@ -76,9 +76,9 @@ export const NAV_DATA: NavData[] = [
         icon: icon_Meta_Url,
         title: 'Messenger 开放平台概览',
         desc: 'Messenger 开放平台的运作方式和成功实现该开放平台所需的要素',
-        link: 'https://developers.facebook.com/docs/messenger-platform/overview'
+        link: 'https://developers.facebook.com/docs/messenger-platform/overview',
       },
-    ]
+    ],
   },
   {
     title: '商业政策',
@@ -100,11 +100,18 @@ export const NAV_DATA: NavData[] = [
         title: 'WhatsApp 商业政策',
         desc: 'WhatsApp api违反商业政策',
         link: 'https://business.whatsapp.com/policy',
-      },{
+      },
+      {
         icon: 'https://static.xx.fbcdn.net/rsrc.php/ym/r/YQbyhl59TWY.ico',
         title: 'Facebook政策更新',
         desc: '我们已将 Facebook、Instagram、Messenger 和 Threads 适用的守则整合到一处，方便你更轻松地查阅。',
         link: 'https://www.facebook.com/privacy/consent/?flow=privacy_policy_notice_usecase&params[usecase]=bundled_terms_notice_2024&params[notification_surface]=facebook_qp_megaphone&source=messenger_web_megaphone&surface=messenger_dot_com',
+      },
+      {
+        icon: 'https://thispersondoesnotexist.com/favicon.ico',
+        title: '随机生成面部照片',
+        desc: '刷新网址随机生成面部照片，用于申诉FB个号',
+        link: 'https://thispersondoesnotexist.com/',
       },
     ],
   },

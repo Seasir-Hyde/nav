@@ -33,7 +33,7 @@ export const NAV_DATA: NavData[] = [
         desc: '用于远程海外的客户',
         link: 'https://www.teamviewer.com/apac/download/windows/',
       },
-    ]
+    ],
   },
 
   {
@@ -141,7 +141,7 @@ export const NAV_DATA: NavData[] = [
         desc: '开发者武器库，做开发者最专业最好用的专业工具箱',
         link: 'https://devtool.tech',
       },
-    ]
+    ],
   },
 
   {
@@ -211,7 +211,19 @@ export const NAV_DATA: NavData[] = [
         title: '1secmail',
         desc: '临时邮箱-可以用来接收fb后台邮箱辅助验证码的',
         link: 'https://www.1secmail.com/',
-      }
+      },
+      {
+        icon: 'https://snovio.cn/blog/wp-content/themes/blog/assets/img/favicon/favicon.png',
+        title: '全球各大邮箱服务商邮件发送限制详情',
+        desc: '全球各大邮箱服务商邮件发送限制详情',
+        link: 'https://snovio.cn/blog/email-sending-limits-of-major-email-service-providers/',
+      },
+      {
+        icon: 'https://support.google.com/favicon.ico',
+        title: '谷歌邮箱收发邮件的限制',
+        desc: '谷歌邮箱收发邮件的限制',
+        link: 'https://support.google.com/mail/answer/22839?hl=zh-Hans&sjid=11250435581494804837-AP#zippy=%2C%E5%B7%B2%E8%BE%BE%E5%88%B0%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6%E7%9A%84%E4%B8%8A%E9%99%90',
+      },
     ],
   },
 
@@ -235,7 +247,7 @@ export const NAV_DATA: NavData[] = [
         title: 'M123跨境导航工具',
         desc: 'M123跨境导航工具',
         link: 'https://www.m123.com/',
-      }
+      },
     ],
   },
 
