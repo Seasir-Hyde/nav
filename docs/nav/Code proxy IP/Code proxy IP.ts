@@ -62,7 +62,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://app.ipfoxy.com/favicon.svg',
         title: 'IPFoxy全球代理',
         desc: '提供不限流量的独享静态IP代理',
-        link: 'https://www.kjdzd.com/sites/2368.html',
+        link: 'https://www.ipfoxy.com/',
       },
       {
         icon: 'https://proxy-seller.com/local/templates/dvsproxyseller/img/logo-page-reg.png',

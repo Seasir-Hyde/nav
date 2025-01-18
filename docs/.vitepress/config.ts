@@ -28,13 +28,13 @@ export default defineConfig({
       'script',
       { src: 'https://assets.salesmartly.com/js/project_23232_24033_1691733753.js', async: 'true' },
     ],
-    [
-      'script',
-      {
-        src: 'https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js',
-        defer: 'true',
-      },
-    ],
+    // [
+    //   'script',
+    //   {
+    //     src: 'https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js',
+    //     defer: 'true',
+    //   },
+    // ],
     // 插入内联 CSS 让看板娘在最顶层
     // 插入内联 CSS 调整看板娘的位置和层级
     [
@@ -102,6 +102,20 @@ export default defineConfig({
           { text: 'Code proxy IP', link: '/nav/Code proxy IP/' },
           { text: '常用工具', link: '/nav/常用工具/' },
         ],
+      },
+
+      {
+        text: 'WhatsApp Business 开放平台',
+        link: 'https://developers.facebook.com/docs/whatsapp/message-templates/guidelines',
+        collapsed: false,
+        items: [{ text: '消息模板指南', link: '/nav/FaceBook/模板消息/指南' }],
+      },
+
+      {
+        text: 'WhatsApp App',
+        link: 'https://faq.whatsapp.com/',
+        collapsed: false,
+        items: [{ text: '帮助中心', link: '/nav/FaceBook/WhatsApp/帮助中心' }],
       },
     ],
 

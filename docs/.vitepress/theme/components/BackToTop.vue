@@ -17,7 +17,7 @@ const scrollToTop = () => {
   } else {
     // 当滚动到顶部时，显示消息提示
     ElMessage({
-      message: '已滚动到顶部',
+      message: '已回到顶部',
       type: 'success',
       duration: 2000, // 消息持续时间
     })

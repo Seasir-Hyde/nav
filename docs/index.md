@@ -22,7 +22,7 @@ hero:
     #   link: /test
     #   theme: alt
 features:
-  - icon: 📖
+  - icon: 🌐
     title: Ss内部导航
     details: 一站式个人Ss内部导航页面
     link: /nav/SaleSmartly/
@@ -32,10 +32,25 @@ features:
     details: 钉钉内部知识库
     link: https://alidocs.dingtalk.com/i/spaces/apjG5kK26OQwKXkE/overview
     linkText: 查看更多
-  - icon: 📖
+  - icon: 📚
     title: SaleSmartly - 帮助中心
     details: 帮助中心
     link: https://help.salesmartly.com/
+    linkText: 查看更多
+  - icon: 📘
+    title: WhatsApp Business 开放平台
+    details: 消息模板指南
+    link: /nav/FaceBook/模板消息/指南
+    linkText: 查看更多
+  - icon: 💡
+    title: WhatsApp Business Api常见问题
+    details: 常见问题
+    link: /nav/FaceBook/模板消息/指南#常见问题
+    linkText: 查看更多
+  - icon: ✨
+    title: WhatsApp Business 开放平台
+    details: 消息模板指南
+    link: /nav/FaceBook/WhatsApp/帮助中心
     linkText: 查看更多
 ---
 

@@ -12,6 +12,10 @@ const Response_Time_Interval_Monthly =
 const Number_of_sessions_per_month =
   'https://webb.adspower.com/d/i_EIWM9Sz/02_03_ss-_xiang-ying-hui-hua-shu-_an-yue-xin-ban?orgId=3&var-dm=2025-01&var-project_name=All&var-group_name=%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81%E7%BB%84&var-nickname=All&var-channel=All&var-plugin_page_name=All&var-tag=All&var-lang=All&var-project_id=1&var-region=All&var-project_id_copy=All&var-start_hour=All&var-end_hour=All&var-juge_end_type=All&viewPanel=48'
 
+// 定义满意度均值变量
+const Satisfaction_Average =
+  'https://webb.adspower.com/d/i_EIWM9Sz/02_03_ss-_xiang-ying-hui-hua-shu-_an-yue-xin-ban?viewPanel=41&var-dm=2025-01&var-project_name=All&var-group_name=%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81%E7%BB%84&var-nickname=All&var-channel=All&var-plugin_page_name=All&var-tag=All&var-lang=All&var-project_id=1&var-region=All&var-project_id_copy=All&var-start_hour=All&var-end_hour=All&var-juge_end_type=All'
+
 type NavData = {
   title: string
   items: NavLink[]
@@ -48,15 +52,21 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: 'https://webb.adspower.com/public/img/salesmartly_icon.ico',
-        title: 'SS_响应时长区间_按月',
+        title: 'SS_响应时长_按月',
         desc: '查看平响',
         link: Response_Time_Interval_Monthly,
       },
       {
         icon: 'https://webb.adspower.com/public/img/salesmartly_icon.ico',
         title: 'SS _响应会话数_按月',
-        desc: '查看满意度',
+        desc: '接待会话量',
         link: Number_of_sessions_per_month,
+      },
+      {
+        icon: 'https://webb.adspower.com/public/img/salesmartly_icon.ico',
+        title: 'SS _满意度_按月',
+        desc: '满意度月均值',
+        link: Satisfaction_Average,
       },
     ],
   },
