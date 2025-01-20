@@ -37,6 +37,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://developers.facebook.com/docs/whatsapp/embedded-signup/errors?locale=zh_CN',
       },
       {
+        icon: icon_Facebook_Url,
+        title: '图谱 API错误代码',
+        desc: '向FB的 API 发出的请求可能会产生多种不同的错误响应',
+        link: 'https://developers.facebook.com/docs/graph-api/guides/error-handling/',
+      },
+      {
         icon: icon_Meta_Url,
         title: 'Meta业务产品的状态和中断',
         desc: 'FaceBook故障公告',
