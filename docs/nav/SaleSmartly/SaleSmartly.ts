@@ -92,6 +92,12 @@ export const NAV_DATA: NavData[] = [
         desc: '接到需要做售前支持的劳烦在这个钉钉在线文档登记一下 然后@子健',
         link: 'https://alidocs.dingtalk.com/i/nodes/2Amq4vjg892Q7jNDfLZGZzOnW3kdP0wQ?iframeQuery=',
       },
+      {
+        icon: icon_DingTalk_Url,
+        title: 'SS质检明细（10-2月）',
+        desc: '查看详细质检明细情况',
+        link: 'https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NQZ9DKiXRjqb2gJgk9rpMq?iframeQuery=sheet_range%3Dst-c5cedc73-10881_0_0_1_1',
+      }
     ],
   },
 
