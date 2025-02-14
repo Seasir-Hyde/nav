@@ -97,7 +97,13 @@ export const NAV_DATA: NavData[] = [
         title: 'SS质检明细（10-2月）',
         desc: '查看详细质检明细情况',
         link: 'https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NQZ9DKiXRjqb2gJgk9rpMq?iframeQuery=sheet_range%3Dst-c5cedc73-10881_0_0_1_1',
-      }
+      },
+      {
+        icon: icon_DingTalk_Url,
+        title: '2月满意度自审表格',
+        desc: '客户满意度评价登录',
+        link: 'https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGEN1kY7t9j77Q1586EDybno?corpId=dingf9adfa24336a8264f2c783f7214b6d69&utm_medium=im_card&cid=48209522929&iframeQuery=utm_medium%253Dim_card%2526utm_source%253Dim&utm_scene=person_space&utm_source=im',
+      },
     ],
   },
 
