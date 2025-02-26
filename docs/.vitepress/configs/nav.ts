@@ -10,10 +10,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     ]
   },
   {
-    text: '💻桌面客户端',
-    items: [
-      { text: '🖥️64位 win10以上（右键复制链接）', link: 'https://client.salesmartly.com/app/desktop/SaleSmartly-windows.zip' },
-    ]
+    text: '💻桌面客户端',link: '/nav/SaleSmartly/桌面客户端/💻桌面客户端.md'
   },
   {
     text: '📜错误码文档',
