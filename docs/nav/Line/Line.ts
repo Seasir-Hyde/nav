@@ -71,7 +71,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
-  
+
   {
     title: 'line后台',
     items: [
@@ -105,6 +105,12 @@ export const NAV_DATA: NavData[] = [
         title: 'Messaging-api错误码',
         desc: 'Line官方号消息传递API错误代码',
         link: 'https://developers.line.biz/en/reference/messaging-api/#error-responses',
+      },
+      {
+        icon: 'https://developers.line.biz/assets/icon/favicon.ico',
+        title: 'LINE API 事件报告',
+        desc: '查看line官方api异常事件报告',
+        link: 'https://api.line-status.info/incidents/jc0799zklv25',
       },
     ],
   },

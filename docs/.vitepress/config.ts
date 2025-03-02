@@ -95,8 +95,13 @@ export default defineConfig({
         link: '/nav/',
         collapsed: false,
         items: [
-          // 显示的是 `/guide/index.md` 页面
-          { text: 'SaleSmartly', link: '/nav/SaleSmartly/' },
+          {
+            text: 'SaleSmartly',
+            link: '/nav/SaleSmartly/',
+            items: [
+              { text: 'api接口', link: '/nav/SaleSmartly/SaleSmartly Api/FAQ' },
+            ],
+          },
           { text: 'FaceBook', link: '/nav/FaceBook/' },
           { text: 'Line', link: '/nav/Line/' },
           { text: 'Code proxy IP', link: '/nav/Code proxy IP/' },

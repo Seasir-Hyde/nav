@@ -6,15 +6,15 @@ const icon_DingTalk_Url =
 
 //定义响应时间长按月变量
 const Response_Time_Interval_Monthly =
-  'https://webb.adspower.com/d/BVsnEtWSk/01_02_ss_xiang-ying-shi-chang-qu-jian-_an-yue-response-time-interval-monthly?orgId=3&viewPanel=6&var-month_list=2025-02&var-project_name=All&var-nickname=%E5%B0%8F%E5%87%AF&var-nickname=%E5%B0%8F%E5%9D%9A&var-nickname=%E5%B0%8F%E5%A9%B7&var-nickname=%E5%B0%8F%E5%BC%A0&var-nickname=%E5%B0%8F%E6%9E%97&var-nickname=%E5%B0%8F%E6%B3%BD&var-nickname=%E5%B0%8F%E6%B5%9A&var-nickname=%E5%B0%8F%E6%B9%96&var-nickname=%E6%BD%87%E6%BD%87&var-nickname=%E5%B0%8F%E9%91%AB&var-channel=All&var-plugin_page_name=All&var-start_hour=All&var-lang=All&var-region=All'
+  'https://webb.adspower.com/d/BVsnEtWSk/01_02_ss_xiang-ying-shi-chang-qu-jian-_an-yue-response-time-interval-monthly?orgId=3&viewPanel=6&var-month_list=2025-03&var-project_name=All&var-nickname=%E5%B0%8F%E5%87%AF&var-nickname=%E5%B0%8F%E5%9D%9A&var-nickname=%E5%B0%8F%E5%A9%B7&var-nickname=%E5%B0%8F%E5%B8%8C&var-nickname=%E5%B0%8F%E5%BC%A0&var-nickname=%E5%B0%8F%E6%9E%97&var-nickname=%E5%B0%8F%E6%B3%BD&var-nickname=%E5%B0%8F%E6%B5%9A&var-nickname=%E5%B0%8F%E6%B9%96&var-nickname=%E5%B0%8F%E9%91%AB&var-nickname=%E6%BD%87%E6%BD%87&var-channel=All&var-plugin_page_name=All&var-start_hour=All&var-lang=All&var-region=All'
 
 //定义会话数按月变量
 const Number_of_sessions_per_month =
-  'https://webb.adspower.com/d/i_EIWM9Sz/02_03_ss-_xiang-ying-hui-hua-shu-_an-yue-xin-ban?orgId=3&var-dm=2025-02&var-project_name=All&var-group_name=%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81%E7%BB%84&var-nickname=All&var-channel=All&var-plugin_page_name=All&var-tag=All&var-lang=All&var-project_id=1&var-region=All&var-project_id_copy=All&var-start_hour=All&var-end_hour=All&var-juge_end_type=All&viewPanel=48'
+  'https://webb.adspower.com/d/i_EIWM9Sz/02_03_ss-_xiang-ying-hui-hua-shu-_an-yue-xin-ban?orgId=3&var-dm=2025-03&var-project_name=All&var-group_name=%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81%E7%BB%84&var-nickname=All&var-channel=All&var-plugin_page_name=All&var-tag=All&var-lang=All&var-project_id=1&var-region=All&var-project_id_copy=All&var-start_hour=All&var-end_hour=All&var-juge_end_type=All&viewPanel=48'
 
 // 定义满意度均值变量
 const Satisfaction_Average =
-  'https://webb.adspower.com/d/i_EIWM9Sz/02_03_ss-_xiang-ying-hui-hua-shu-_an-yue-xin-ban?viewPanel=41&var-dm=2025-02&var-project_name=All&var-group_name=%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81%E7%BB%84&var-nickname=All&var-channel=All&var-plugin_page_name=All&var-tag=All&var-lang=All&var-project_id=1&var-region=All&var-project_id_copy=All&var-start_hour=All&var-end_hour=All&var-juge_end_type=All&orgId=3'
+  'https://webb.adspower.com/d/i_EIWM9Sz/02_03_ss-_xiang-ying-hui-hua-shu-_an-yue-xin-ban?viewPanel=41&var-dm=2025-03&var-project_name=All&var-group_name=%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81%E7%BB%84&var-nickname=All&var-channel=All&var-plugin_page_name=All&var-tag=All&var-lang=All&var-project_id=1&var-region=All&var-project_id_copy=All&var-start_hour=All&var-end_hour=All&var-juge_end_type=All&orgId=3'
 
 type NavData = {
   title: string

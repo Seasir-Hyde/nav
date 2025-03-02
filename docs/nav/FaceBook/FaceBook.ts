@@ -9,6 +9,18 @@ const icon_Meta_Url = 'https://metastatus.com/meta/favicon.ico'
 // WhatsApp 图标
 const icon_WhatsApp_Url = 'https://static.whatsapp.net/rsrc.php/v3/yP/r/rYZqPCBaG70.png'
 
+// WhatsApp 图标
+const icon_WhatsApp_Api_Url =
+  'https://assets-cdn.salesmartly.com/prod/project/fj3mnx/p1/chat/plugin/image/20250302/1740907976554/image_1740907976554_6fb53c51539b47559cf0d122a83.png'
+
+// Messenger 图标
+const icon_Messenger_Url =
+  'https://scontent-sin2-1.xx.fbcdn.net/v/t39.2365-6/294976651_611610467207870_1164978025675666563_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=20sU2ELKB8IQ7kNvgF3JW2v&_nc_oc=Adga4QRDql72s9ozXWmY1WTlOfjObxXVdR0CdGQzXY9ns6eC5iNeM_39p5vRwLyxMd8&_nc_zt=14&_nc_ht=scontent-sin2-1.xx&_nc_gid=AaOhLyrkYeiH6H1aQeLxpP1&oh=00_AYCoxxkvKz1FyeNwwNA60ZluODtTGpsoWMqs_wjpCj3deQ&oe=67DE5719'
+
+// Instagram 图标
+const icon_Instagram_Url =
+  'https://www.facebook.com/images/pages/settings/instagram/Instagram_Glyph_Gradient.png'
+
 type NavData = {
   title: string
   items: NavLink[]
@@ -19,20 +31,26 @@ export const NAV_DATA: NavData[] = [
     title: '错误代码',
     items: [
       {
-        icon: icon_Facebook_Url,
+        icon: icon_WhatsApp_Api_Url,
         title: '错误代码-云端API',
         desc: '查WhatsApp api错误码',
         link: 'https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes',
       },
       {
-        icon: icon_Facebook_Url,
+        icon: icon_Messenger_Url,
         title: 'Error Codes Messenger',
         desc: '查FB主页错误码',
         link: 'https://developers.facebook.com/docs/messenger-platform/error-codes',
       },
       {
-        icon: icon_Facebook_Url,
-        title: 'WhatsApp Business 开放平台嵌入式注册错误码',
+        icon: icon_Messenger_Url,
+        title: 'Error Codes Messenger',
+        desc: 'mess主页上传附件错误码',
+        link: 'https://developers.facebook.com/docs/messenger-platform/reference/attachment-upload-api#-----2',
+      },
+      {
+        icon: icon_WhatsApp_Api_Url,
+        title: '自助注册api号码错误码',
         desc: 'FB官方自助注册api号码错误码',
         link: 'https://developers.facebook.com/docs/whatsapp/embedded-signup/errors?locale=zh_CN',
       },
@@ -67,37 +85,37 @@ export const NAV_DATA: NavData[] = [
     title: '开发者文档',
     items: [
       {
-        icon: icon_Meta_Url,
+        icon: icon_WhatsApp_Api_Url,
         title: 'WhatsApp Business 开放平台',
         desc: '通过 WhatsApp Business 开放平台，大中型企业可与客户进行大规模交流',
         link: 'https://developers.facebook.com/docs/whatsapp',
       },
       {
-        icon: icon_Meta_Url,
+        icon: icon_Instagram_Url,
         title: 'Instagram 消息 入门指南',
         desc: '调用支持 Instagram 的 Messenger API（也将之称为 Instagram 消息 API）',
         link: 'https://developers.facebook.com/docs/messenger-platform/instagram/get-started',
       },
       {
-        icon: icon_Meta_Url,
+        icon: icon_Messenger_Url,
         title: 'Messenger 开放平台概览',
         desc: 'Messenger 开放平台的运作方式和成功实现该开放平台所需的要素',
         link: 'https://developers.facebook.com/docs/messenger-platform/overview',
       },
       {
-        icon: icon_Meta_Url,
+        icon: icon_WhatsApp_Api_Url,
         title: 'WhatsApp Business 开发者支持',
         desc: 'WhatsApp Business 开发者支持入口',
         link: 'https://developers.facebook.com/docs/whatsapp/support',
       },
       {
-        icon: icon_Facebook_Url,
+        icon: icon_Meta_Url,
         title: '开发者社群论坛',
         desc: '开发者社群论坛',
         link: 'https://developers.facebook.com/community',
       },
       {
-        icon: icon_Facebook_Url,
+        icon: icon_Meta_Url,
         title: '开发者常见问题',
         desc: 'Facebook官方faq文档',
         link: 'https://developers.facebook.com/support/faq/',
@@ -108,7 +126,7 @@ export const NAV_DATA: NavData[] = [
     title: '商业政策',
     items: [
       {
-        icon: icon_Meta_Url,
+        icon: icon_WhatsApp_Api_Url,
         title: 'WhatsApp 商业政策',
         desc: 'WhatsApp api违反商业政策，这个更详细点',
         link: 'https://www.facebook.com/policies_center/commerce/',
@@ -120,7 +138,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://transparency.meta.com/zh-cn/policies/',
       },
       {
-        icon: icon_WhatsApp_Url,
+        icon: icon_WhatsApp_Api_Url,
         title: 'WhatsApp 商业政策',
         desc: 'WhatsApp api违反商业政策',
         link: 'https://business.whatsapp.com/policy',
