@@ -38,3 +38,8 @@ ssq.push('setLoginInfo', {
 
 :::
 没有，但是也不要弄太长
+
+## 批量操作标签包含访客和会话标签吗？
+
+![批量操作标签](https://assets-cdn.salesmartly.com/prod/project/fj3mnx/p1/chat/plugin/image/20250303/1740984344076/image_1740984344076_0f14b567d997af5d8a5ea9a6c8d.png)
+答：这个只能操作已存在的访客标签，已存在的会话标签也是不能操作的
