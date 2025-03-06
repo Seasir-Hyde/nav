@@ -119,7 +119,7 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: 'https://karing.app/img/favicon.ico',
-        title: 'karing',
+        title: 'karing(IOS,需美区ID)',
         desc: '兼容Clash的通用网络代理工具, 支持clash/v2ray/ss订阅',
         link: 'https://karing.app/',
       },
