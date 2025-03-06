@@ -105,7 +105,7 @@ export default defineConfig({
           { text: 'FaceBook', link: '/nav/FaceBook/' },
           { text: 'Line', link: '/nav/Line/' },
           { text: 'Code proxy IP', link: '/nav/Code proxy IP/' },
-          { text: '常用工具', link: '/nav/常用工具/' },
+          { text: '网站导航', link: '/nav/网站导航/' },
         ],
       },
 

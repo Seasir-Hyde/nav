@@ -10,7 +10,7 @@ import { NAV_DATA } from './Tools'
 <!-- 引入公共的样式文件 -->
 <style src="../../.vitepress/theme/styles/index.scss"></style>
 
-# 常用工具
+# 网站导航
 
 <MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
 
