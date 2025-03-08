@@ -25,6 +25,9 @@ importers:
       minisearch:
         specifier: ^6.3.0
         version: 6.3.0
+      vitepress-plugin-announcement:
+        specifier: ^0.1.4
+        version: 0.1.4(vitepress@1.6.3(@algolia/client-search@5.20.3)(@types/node@18.19.78)(async-validator@4.2.5)(postcss@8.5.3)(sass@1.85.1)(search-insights@2.9.0))
       vitepress-plugin-search:
         specifier: 1.0.4-alpha.22
         version: 1.0.4-alpha.22(flexsearch@0.7.43)(vitepress@1.6.3(@algolia/client-search@5.20.3)(@types/node@18.19.78)(async-validator@4.2.5)(postcss@8.5.3)(sass@1.85.1)(search-insights@2.9.0))(vue@3.5.13)
@@ -1208,6 +1211,9 @@ packages:
   jackspeak@3.4.3:
     resolution: {integrity: sha512-OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw==}
 
+  javascript-stringify@2.1.0:
+    resolution: {integrity: sha512-JVAfqNPTvNq3sB/VHQJAFxN/sPgKnsKrCwyRt15zwNCdrMMJDdcEOdubuy+DuJYYdm0ox1J4uzEuYKkN+9yhVg==}
+
   jiti@1.21.7:
     resolution: {integrity: sha512-/imKNG4EbWNrVjoNC/1H5/9GFy+tqjGBHCaSsN+P2RnPqjsLmv6UD3Ej+Kj8nBWaRAwyk7kK5ZUc+OEatnTR3A==}
     hasBin: true
@@ -1845,6 +1851,11 @@ packages:
         optional: true
       terser:
         optional: true
+
+  vitepress-plugin-announcement@0.1.4:
+    resolution: {integrity: sha512-3z39IJmN1GOyLwIZtGLV9uMUdH5xonMV+ELUgFZ0TOrF+1+HEFQo0gXYF+5tbFZcqEJgU5ESPLM29nkfzSRToQ==}
+    peerDependencies:
+      vitepress: ^1
 
   vitepress-plugin-search@1.0.4-alpha.22:
     resolution: {integrity: sha512-IAOEJu+kjVY+0pb6/PeRjIbr175HFFbnMdLmLjqcy7VWxkabIRZbLoQL1VUYDZl804o/Or+GaX02gsiMOnVxFA==}
@@ -2958,6 +2969,8 @@ snapshots:
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
 
+  javascript-stringify@2.1.0: {}
+
   jiti@1.21.7: {}
 
   kleur@4.1.5: {}
@@ -3720,6 +3733,11 @@ snapshots:
       '@types/node': 18.19.78
       fsevents: 2.3.3
       sass: 1.85.1
+
+  vitepress-plugin-announcement@0.1.4(vitepress@1.6.3(@algolia/client-search@5.20.3)(@types/node@18.19.78)(async-validator@4.2.5)(postcss@8.5.3)(sass@1.85.1)(search-insights@2.9.0)):
+    dependencies:
+      javascript-stringify: 2.1.0
+      vitepress: 1.6.3(@algolia/client-search@5.20.3)(@types/node@18.19.78)(async-validator@4.2.5)(postcss@8.5.3)(sass@1.85.1)(search-insights@2.9.0)
 
   vitepress-plugin-search@1.0.4-alpha.22(flexsearch@0.7.43)(vitepress@1.6.3(@algolia/client-search@5.20.3)(@types/node@18.19.78)(async-validator@4.2.5)(postcss@8.5.3)(sass@1.85.1)(search-insights@2.9.0))(vue@3.5.13):
     dependencies:

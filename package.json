@@ -57,6 +57,7 @@
     "element-plus": "^2.9.5",
     "flexsearch": "^0.7.43",
     "minisearch": "^6.3.0",
+    "vitepress-plugin-announcement": "^0.1.4",
     "vitepress-plugin-search": "1.0.4-alpha.22"
   }
 }

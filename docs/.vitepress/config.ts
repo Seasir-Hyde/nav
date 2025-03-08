@@ -1,6 +1,7 @@
 import { basename } from 'node:path'
 import { defineConfig } from 'vitepress'
 import MarkdownPreview from 'vite-plugin-markdown-preview'
+import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
 
 import { nav } from './configs'
 // import MiniSearch from 'minisearch';
@@ -229,6 +230,29 @@ export default defineConfig({
   },
 
   vite: {
-    plugins: [MarkdownPreview()],
+    plugins: [
+      MarkdownPreview(),
+      AnnouncementPlugin({
+        title: '公告',
+        body: [
+          { type: 'text', content: '⚠️ 免责声明 ⚠️' },
+          { type: 'text', content: ' 本"内部导航网"仅作为公司内部资源和常用网站的导航工具使用。' },
+          { type: 'text', content: '⚠️ 请勿将网站外泄⚠️' },
+
+        ],
+        footer: [
+          {
+            type: 'button',
+            content: '详细了解',
+            link: 'https://ssnav.netlify.app/nav/#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E'
+          },
+          {
+            type: 'button',
+            content: '版权所有',
+            link: 'https://sugarat.top/technology/works/vitepress-plugin-announcement.html'
+          },
+        ],
+      })
+    ],
   },
 })
