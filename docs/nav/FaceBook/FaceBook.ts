@@ -32,8 +32,8 @@ export const NAV_DATA: NavData[] = [
     items: [
       {
         icon: icon_WhatsApp_Api_Url,
-        title: '错误代码-云端API',
-        desc: '查WhatsApp api错误码',
+        title: '云端API 错误代码',
+        desc: 'WhatsApp Business API 云端错误代码',
         link: 'https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes',
       },
       {
