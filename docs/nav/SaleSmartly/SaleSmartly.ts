@@ -104,12 +104,6 @@ export const NAV_DATA: NavData[] = [
         desc: '客户满意度评价登录',
         link: 'https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGEN1kY7t9j77Q1586EDybno?corpId=dingf9adfa24336a8264f2c783f7214b6d69&utm_medium=im_card&cid=48209522929&iframeQuery=utm_medium%253Dim_card%2526utm_source%253Dim&utm_scene=person_space&utm_source=im',
       },
-      {
-        icon: icon_DingTalk_Url,
-        title: '发票登记表格',
-        desc: '发票登记表格',
-        link: 'https://alidocs.dingtalk.com/i/nodes/YQBnd5ExVEGMoj0OcEggoGkm8yeZqMmz?utm_scene=person_space',
-      },
     ],
   },
 
