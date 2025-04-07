@@ -67,6 +67,24 @@ export default defineConfig({
     }
     `,
     ],
+    // 鼠标爆炸效果
+    [
+      'script',
+      {
+        type: 'text/javascript',
+        src: 'https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/animejs/3.2.1/anime.min.js', //字节cdn
+        id: 'anime.min.js-js',
+        defer: 'defer',
+      },
+    ],
+    [
+      'script',
+      {
+        // src: "https://cpython666.github.io/js/clickjs/fireworks.js",
+        src: 'https://live2d-hyde.netlify.app/Clickfireworks.js',
+        defer: 'defer',
+      },
+    ],
   ],
 
   // 表示是否更新成功
@@ -94,14 +112,12 @@ export default defineConfig({
       {
         text: '快速导航',
         link: '/nav/',
-        collapsed: false,
+        collapsed: true,
         items: [
           {
             text: 'SaleSmartly',
             link: '/nav/SaleSmartly/',
-            items: [
-              { text: 'api接口', link: '/nav/SaleSmartly/SaleSmartly Api/FAQ' },
-            ],
+            items: [{ text: 'api接口', link: '/nav/SaleSmartly/SaleSmartly Api/FAQ' }],
           },
           { text: 'FaceBook', link: '/nav/FaceBook/' },
           { text: 'Line', link: '/nav/Line/' },
@@ -114,7 +130,10 @@ export default defineConfig({
         text: 'WhatsApp Business 开放平台',
         link: 'https://developers.facebook.com/docs/whatsapp/message-templates/guidelines',
         collapsed: false,
-        items: [{ text: '消息模板指南', link: '/nav/FaceBook/模板消息/指南' }],
+        items: [
+          { text: '消息模板指南', link: '/nav/FaceBook/模板消息/消息模板指南' },
+          { text: '常见问题', link: '/nav/FaceBook/模板消息/常见问题' },
+        ],
       },
 
       {
@@ -238,21 +257,20 @@ export default defineConfig({
           { type: 'text', content: '⚠️ 免责声明 ⚠️' },
           { type: 'text', content: ' 本"内部导航网"仅作为公司内部资源和常用网站的导航工具使用。' },
           { type: 'text', content: '⚠️ 请勿将网站外泄⚠️' },
-
         ],
         footer: [
           {
             type: 'button',
             content: '详细了解',
-            link: 'https://ssnav.netlify.app/nav/#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E'
+            link: 'https://ssnav.netlify.app/nav/#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E',
           },
           {
             type: 'button',
             content: '版权所有',
-            link: 'https://sugarat.top/technology/works/vitepress-plugin-announcement.html'
+            link: 'https://sugarat.top/technology/works/vitepress-plugin-announcement.html',
           },
         ],
-      })
+      }),
     ],
   },
 })

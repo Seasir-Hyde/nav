@@ -17,7 +17,7 @@ hero:
     #   link: http://tool.liumingye.cn/music/#/
     #   theme: alt
     - text: 快速导航
-      link: /nav/SaleSmartly/
+      link: /nav/
     # - text: 测试页
     #   link: /test
     #   theme: alt
