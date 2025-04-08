@@ -111,7 +111,7 @@ export default defineConfig({
     sidebar: [
       {
         text: '快速导航',
-        link: '/nav/',
+        link: '/nav/SaleSmartly/',
         collapsed: true,
         items: [
           {
