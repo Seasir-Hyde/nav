@@ -9,9 +9,9 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: 'Demo网站', link: 'https://soybean-admin.netlify.app/' },
     ]
   },
-  {
-    text: '💻桌面客户端',link: '/nav/SaleSmartly/桌面客户端/💻桌面客户端.md'
-  },
+  // {
+  //   text: '💻桌面客户端',link: '/nav/SaleSmartly/桌面客户端/💻桌面客户端.md'
+  // },
   {
     text: '📜错误码文档',
     items: [

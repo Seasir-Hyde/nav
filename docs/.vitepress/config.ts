@@ -182,7 +182,7 @@ export default defineConfig({
 
     footer: {
       // message: '底部页脚说明',
-      copyright: 'Copyright © 2024-present SeasirHyde',
+      copyright: 'Copyright © 2025-present SeasirHyde',
     },
 
     // 声明一个lastUpdated变量，它是一个对象，包含文本（text）和格式选项（formatOptions）

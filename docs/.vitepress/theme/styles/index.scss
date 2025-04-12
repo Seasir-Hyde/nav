@@ -1,7 +1,7 @@
-@import './rainbow.scss';
-@import './vars.scss';
-@import './vitepress.scss';
-@import './medium-zoom.scss';
-@import './tailwind.scss';
-@import './nav-blur.scss'; //导航栏模糊效果
-@import './font.scss'; //字体
+@use './rainbow.scss';
+@use './vars.scss';
+@use './vitepress.scss';
+@use './medium-zoom.scss';
+@use './tailwind.scss';
+@use './nav-blur.scss'; //导航栏模糊效果
+@use './font.scss'; //字体

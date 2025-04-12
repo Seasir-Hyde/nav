@@ -17,3 +17,5 @@ import { NAV_DATA } from './SaleSmartly'
 ::: tip
 该导航由 [maomao](https://github.com/maomao1996) 开发，由[666seasir666](https://github.com/)修改。保留版权声明！
 :::
+<!-- 五彩纸屑组件 -->
+<confetti />

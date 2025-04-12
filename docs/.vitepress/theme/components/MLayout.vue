@@ -5,11 +5,16 @@ import { nextTick, provide } from 'vue'
 import Giscus from '@giscus/vue'
 
 import { usePageId } from '../composables'
-
+// @ts-ignore
 import MNavVisitor from './MNavVisitor.vue'
+// @ts-ignore
 import MDocFooter from './MDocFooter.vue'
-
+// @ts-ignore
 import BackToTop from './BackToTop.vue' //返回顶部
+// @ts-ignore
+import MouseClick from './MouseClick.vue' // 鼠标点击效果
+// @ts-ignore
+import MouseFollower from './MouseFollower.vue' // 鼠标跟随效果
 
 const { Layout } = DefaultTheme
 const { isDark, theme, frontmatter } = useData()
@@ -64,6 +69,11 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
       https://vitepress.dev/zh/guide/extending-default-theme#layout-slots
       https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/Layout.vue
     -->
+    <template #layout-top>
+      <MouseFollower />
+      <MouseClick />
+    </template>
+
     <template #nav-bar-title-after>
       <MNavVisitor />
     </template>

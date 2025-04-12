@@ -17,7 +17,7 @@ hero:
     #   link: http://tool.liumingye.cn/music/#/
     #   theme: alt
     - text: 快速导航
-      link: /nav/
+      link: /nav/SaleSmartly/
     # - text: 测试页
     #   link: /test
     #   theme: alt
@@ -71,3 +71,5 @@ features:
   text-align: right;
 }
 </style>
+<!-- 五彩纸屑组件 -->
+<confetti />
