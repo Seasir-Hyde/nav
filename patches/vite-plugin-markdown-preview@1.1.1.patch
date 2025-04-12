@@ -1,5 +1,5 @@
 diff --git a/dist/index.js b/dist/index.js
-index 5c354f7fc1239f8c5ff92d91ef87afd0eca78bdb..e374d9a8144cafb2a7564480aadc468bbb0111e3 100644
+index 5c354f7fc1239f8c5ff92d91ef87afd0eca78bdb..a7f6945d582a29de275c27983e443f84141cec83 100644
 --- a/dist/index.js
 +++ b/dist/index.js
 @@ -13,6 +13,7 @@ import { createHash } from "node:crypto";
@@ -19,7 +19,7 @@ index 5c354f7fc1239f8c5ff92d91ef87afd0eca78bdb..e374d9a8144cafb2a7564480aadc468b
    });
    const blocks = {};
 diff --git a/package.json b/package.json
-index 31fcc5521e2e41ad0faf49359e173eec3ecb62ee..d123b492b36675a1c83bb277805c471878bcea43 100644
+index 31fcc5521e2e41ad0faf49359e173eec3ecb62ee..61157bc14a0d7abcd9a41e5883bc4180ef62a925 100644
 --- a/package.json
 +++ b/package.json
 @@ -45,6 +45,7 @@
