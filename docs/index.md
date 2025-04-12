@@ -4,7 +4,7 @@ layoutClass: 'm-home-layout'
 
 hero:
   name: SaleSmartly
-  text: 内部一站式导航1
+  text: 内部一站式导航
   tagline: 基于 VitePress 的前端导航页面模板
   image:
     # 主页右侧logo背景图
