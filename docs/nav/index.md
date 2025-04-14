@@ -1,4 +1,5 @@
 ---
+title: SaleSmartly
 layoutClass: m-nav-layout
 outline: [2, 3, 4]
 ---

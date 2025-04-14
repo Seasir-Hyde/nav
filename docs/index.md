@@ -73,3 +73,5 @@ features:
 </style>
 <!-- 五彩纸屑组件 -->
 <confetti />
+<!-- 不蒜子统计 -->
+<bsz/>

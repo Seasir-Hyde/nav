@@ -10,8 +10,6 @@ import { NAV_DATA } from './FaceBook'
 <!-- 引入公共的样式文件 -->
 <style src="../../.vitepress/theme/styles/index.scss"></style>
 
-# FaceBook
-
 <MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
 
 ::: tip

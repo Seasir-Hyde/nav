@@ -10,8 +10,6 @@ import { NAV_DATA } from './Line'
 <!-- 引入公共的样式文件 -->
 <style src="../../.vitepress/theme/styles/index.scss"></style>
 
-# Line
-
 <MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
 
 ## [如何建立 LINE 的社群？](https://line-zhcn.com/6.html)
