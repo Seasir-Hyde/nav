@@ -43,3 +43,22 @@ ssq.push('setLoginInfo', {
 
 ![批量操作标签](https://assets-cdn.salesmartly.com/prod/project/fj3mnx/p1/chat/plugin/image/20250303/1740984344076/image_1740984344076_0f14b567d997af5d8a5ea9a6c8d.png)
 答：这个只能操作已存在的访客标签，已存在的会话标签也是不能操作的
+
+## CURL 命令在哪获取？
+
+- 在`实际请求`这里获取,如图,然后到[Admin 后台](https://ss888.xmp.one/admin.html#/admin/signature_tool/index.html?spm=m-67-143-150)使用签名工具校验
+
+![](https://resource-ai.helplook.net/docker_production/qkknm3s7/article/sOZHg5pK/67fdf6a1c4ede.png)
+
+## [获取成员分配明细渠道分析](https://apifox.com/apidoc/shared/3e66aa38-1e0a-40c7-bf58-c350da69bcb7/api-160974116)更新时间
+
+- 通过 api 接口的拉过来的数据，也是根据数据分析那样，一个小时更新一次，还是持续更新的呢?
+  ![](https://resource-ai.helplook.net/docker_production/qkknm3s7/article/sOZHg5pK/67fdf883be536.png)
+  答：和数据分析一样的，每小时更新一次
+
+## sequence_id 唯一标识
+
+- sequence_id 的消息 id 每次拉取回来都是不一样的 id 的吗?是否可以用这个作为消息 id 唯一标识?
+  ![](https://resource-ai.helplook.net/docker_production/qkknm3s7/article/sOZHg5pK/67fdfa6193fc8.png)
+
+  答：建议使用 sequence_id 和 chat_user_id 结合起来作为唯一 id

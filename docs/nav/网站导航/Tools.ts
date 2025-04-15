@@ -1,5 +1,7 @@
 import type { NavLink } from '../../.vitepress/theme/types'
 
+const icon_heltar_Url ='https://www.heltar.com/assets/logoPC.svg'
+
 type NavData = {
   title: string
   items: NavLink[]
@@ -92,6 +94,30 @@ export const NAV_DATA: NavData[] = [
         title: '即时工具',
         desc: '即时工具-致力打造即用即走型在线工具箱',
         link: 'https://www.67tool.com/',
+      },
+      {
+        icon: icon_heltar_Url,
+        title: 'WhatsApp 链接生成器',
+        desc: '为您的 WhatsApp 创建直接聊天链接',
+        link: 'https://www.heltar.com/whatsapp-chat-link-generator.html',
+      },
+      {
+        icon: icon_heltar_Url,
+        title: 'WhatsApp 二维码生成器',
+        desc: '生成直接链接到您的 WhatsApp 聊天的二维码',
+        link: 'https://www.heltar.com/whatsapp-qr-code-generator.html',
+      },
+      {
+        icon: icon_heltar_Url,
+        title: 'WhatsApp 按钮生成器',
+        desc: '为您的 WhatsApp 创建按钮',
+        link: 'https://www.heltar.com/whatsapp-button-generator.html',
+      },
+      {
+        icon: icon_heltar_Url,
+        title: 'UTM URL 生成器',
+        desc: '此工具可让您轻松生成带有 UTM 标记的 URL',
+        link: 'https://www.heltar.com/utm-link-generator.html',
       },
       {
         icon: 'https://static.convertio.co/favicon.ico',
