@@ -46,7 +46,9 @@ const isDocFooterVisible = computed(() => {
   line-height: 24px;
   font-size: 14px;
   font-weight: 500;
-  color: var(--vp-c-text-2);
+  /* color: var(--vp-c-text-2); */
+  /* 设置md文档底部页脚文字透明度为0 */
+  color: #ffffff2e;
 }
 
 .m-doc-footer-message,

@@ -1,5 +1,3 @@
-
-
 // 导出head.ts
 export const HeadData = [
   // 插入外部 JavaScript 链接
@@ -45,6 +43,36 @@ export const HeadData = [
   }
   `,
   ],
+  [
+    'script',
+    {},
+    `
+function runtime(){
+// 初始时间，日/月/年 时:分:秒
+X = new Date("3/10/2022 15:32:00");
+Y = new Date();
+T = (Y.getTime()-X.getTime());
+M = 24*60*60*1000;
+a = T/M;
+A = Math.floor(a);
+b = (a-A)*24;
+B = Math.floor(b);
+c = (b-B)*60;
+C = Math.floor((b-B)*60);
+D = Math.floor((c-C)*60);
+
+// 信息写入到 DIV 中
+    const runtimeElement = document.getElementById("runtime");
+    if (runtimeElement) {
+        runtimeElement.innerHTML = "本站已艰难的运行了 " + "<font style='color:#FFA500;font-weight:bold'>" + A + "</font>" + "天" + "<font style='color:#8A2BE2;font-weight:bold'>" + B + "</font>" + "小时<font style='color:#1DBF97;font-weight:bold'>" + C + "</font>分<font style='color:#5da8ff;font-weight:bold'>" + D + "</font>秒(●'◡'●)";
+    }
+}
+
+// 每秒运行一次
+setInterval(runtime,1000);
+
+`,
+  ],
   // 鼠标爆炸效果
   // [
   //   'script',
@@ -63,4 +91,4 @@ export const HeadData = [
   //     defer: 'defer',
   //   },
   // ],
-];
+]

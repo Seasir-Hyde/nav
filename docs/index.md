@@ -37,21 +37,21 @@ features:
     details: 帮助中心
     link: https://help.salesmartly.com/
     linkText: 查看更多
-  - icon: 📘
-    title: WhatsApp Business 开放平台
-    details: 消息模板指南
-    link: /nav/FaceBook/模板消息/指南
-    linkText: 查看更多
-  - icon: 💡
-    title: WhatsApp Business Api常见问题
-    details: 常见问题
-    link: /nav/FaceBook/模板消息/指南#常见问题
-    linkText: 查看更多
-  - icon: ✨
-    title: WhatsApp Business 开放平台
-    details: 消息模板指南
-    link: /nav/FaceBook/WhatsApp/帮助中心
-    linkText: 查看更多
+  # - icon: 📘
+  #   title: WhatsApp Business 开放平台
+  #   details: 消息模板指南
+  #   link: /nav/FaceBook/模板消息/指南
+  #   linkText: 查看更多
+  # - icon: 💡
+  #   title: WhatsApp Business Api常见问题
+  #   details: 常见问题
+  #   link: /nav/FaceBook/模板消息/指南#常见问题
+  #   linkText: 查看更多
+  # - icon: ✨
+  #   title: WhatsApp Business 开放平台
+  #   details: 消息模板指南
+  #   link: /nav/FaceBook/WhatsApp/帮助中心
+  #   linkText: 查看更多
 ---
 
 <style>
