@@ -86,10 +86,14 @@ export default defineConfig({
     footer: {
       message: `本站收录内容源自互联网，不对其网站内容或交易负责&ensp;|&ensp;如有内容侵犯权益，请联系站长删除相关内容！`,
       copyright: `Copyright © 2024-2025 SeasirHyde 到达胜利之前无法回头！ <img src="" alt="">桂ICP备2021009994号 &ensp;| 甘公网安备62102702000211号
-
+      <p>本文总阅读量 <span id="busuanzi_page_pv"></span> 次&ensp;|
+      本文总访客量 <span id="busuanzi_page_uv"></span> 人&ensp;|
+      本站总访问量 <span id="busuanzi_site_pv"></span> 次&ensp;|
+      本站总访客数 <span id="busuanzi_site_uv"></span> 人</p>
+      <span class="showTime"></span>
+      <span id="runtime"></span>
       <a href="https://busuanzi.9420.ltd/" target="_blank" style="display:flex;align-items:center;justify-content:center;text-decoration: none; color: #5da8ff;">本网站由不蒜子API提供数据统计接口服务
       </a>
-      <span id="runtime"></span>
       <p>人心中的成见是一座大山~</p>`,
     },
 

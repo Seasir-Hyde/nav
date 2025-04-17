@@ -47,31 +47,64 @@ export const HeadData = [
     'script',
     {},
     `
-function runtime(){
-// 初始时间，日/月/年 时:分:秒
-X = new Date("3/10/2022 15:32:00");
-Y = new Date();
-T = (Y.getTime()-X.getTime());
-M = 24*60*60*1000;
-a = T/M;
-A = Math.floor(a);
-b = (a-A)*24;
-B = Math.floor(b);
-c = (b-B)*60;
-C = Math.floor((b-B)*60);
-D = Math.floor((c-C)*60);
+      var t = null;
+  t = setTimeout(time, 1000); //開始运行
+  function time() {
+      clearTimeout(t); //清除定时器
+      dt = new Date();
+      var y = dt.getFullYear();
+      var mt = dt.getMonth() + 1;
+      var day = dt.getDate();
+      var h = dt.getHours(); //获取时
+      var m = dt.getMinutes(); //获取分
+      var s = dt.getSeconds(); //获取秒
+      document.querySelector(".showTime").innerHTML =
+          "当前时间是" +
+          y +
+          "年" +
+          mt +
+          "月" +
+          day +
+          "-" +
+          h +
+          "时" +
+          m +
+          "分" +
+          s +
+          "秒";
+      t = setTimeout(time, 1000); //设定定时器，循环运行
+  }
+      `,
+  ],
+  [
+    'script',
+    {},
+    `
+    function runtime(){
+    // 初始时间，日/月/年 时:分:秒
+    const X = new Date("3/10/2022 15:32:00");
+    const Y = new Date();
+    const T = (Y.getTime()-X.getTime());
+    const M = 24*60*60*1000;
+    const a = T/M;
+    const A = Math.floor(a);
+    const b = (a-A)*24;
+    const B = Math.floor(b);
+    const c = (b-B)*60;
+    const C = Math.floor((b-B)*60);
+    const D = Math.floor((c-C)*60);
 
-// 信息写入到 DIV 中
+    // 信息写入到 DIV 中
     const runtimeElement = document.getElementById("runtime");
     if (runtimeElement) {
-        runtimeElement.innerHTML = "本站已艰难的运行了 " + "<font style='color:#FFA500;font-weight:bold'>" + A + "</font>" + "天" + "<font style='color:#8A2BE2;font-weight:bold'>" + B + "</font>" + "小时<font style='color:#1DBF97;font-weight:bold'>" + C + "</font>分<font style='color:#5da8ff;font-weight:bold'>" + D + "</font>秒(●'◡'●)";
+        runtimeElement.innerHTML = "本站已艰难的运行了 " + "<font style='color:#FFA500;font-weight:bold'>" + A + "</font>" + "天" + "<font style='color:#8A2BE2;font-weight:bold'>" + B + "</font>" + "小时<font style='color:#1DBF97;font-weight:bold'>" + C + "</font>分<font style='color:#5da8ff;font-weight:bold'>" + D + "</font>秒  (●'◡'●)";
+      }
     }
-}
 
-// 每秒运行一次
-setInterval(runtime,1000);
+    // 每秒运行一次
+    setInterval(runtime,1000);
 
-`,
+    `,
   ],
   // 鼠标爆炸效果
   // [
@@ -91,4 +124,12 @@ setInterval(runtime,1000);
   //     defer: 'defer',
   //   },
   // ],
+
+  [
+    'script',
+    {
+      src: 'https://busuanzi.9420.ltd/js',
+      defer: 'defer',
+    },
+  ],
 ]
