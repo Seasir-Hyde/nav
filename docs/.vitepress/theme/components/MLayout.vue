@@ -3,7 +3,7 @@ import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, provide } from 'vue'
 import Giscus from '@giscus/vue'
-
+// @ts-ignore
 import { usePageId } from '../composables'
 // @ts-ignore
 import MNavVisitor from './MNavVisitor.vue'
@@ -15,7 +15,10 @@ import BackToTop from './BackToTop.vue' //返回顶部
 import MouseClick from './MouseClick.vue' // 鼠标点击效果
 // @ts-ignore
 import MouseFollower from './MouseFollower.vue' // 鼠标跟随效果
+import loadOml2d from './loadOml2d.vue' // 加载oml2d
+import { useTitleChange } from "./titleChange" //导入动态标题
 
+useTitleChange();//动态标题函数
 const { Layout } = DefaultTheme
 const { isDark, theme, frontmatter } = useData()
 const pageId = usePageId()
@@ -72,6 +75,7 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     <template #layout-top>
       <MouseFollower />
       <MouseClick />
+      <loadOml2d />
     </template>
 
     <template #nav-bar-title-after>
@@ -80,19 +84,8 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 
     <template v-if="comment && frontmatter.comment !== false" #doc-footer-before>
       <div class="doc-comments">
-        <Giscus
-          id="comments"
-          mapping="specific"
-          :term="pageId"
-          strict="1"
-          reactionsEnabled="1"
-          emitMetadata="0"
-          inputPosition="top"
-          :theme="isDark ? 'dark' : 'light'"
-          lang="zh-CN"
-          loading="lazy"
-          v-bind="{ ...comment }"
-        />
+        <Giscus id="comments" mapping="specific" :term="pageId" strict="1" reactionsEnabled="1" emitMetadata="0"
+          inputPosition="top" :theme="isDark ? 'dark' : 'light'" lang="zh-CN" loading="lazy" v-bind="{ ...comment }" />
       </div>
     </template>
 

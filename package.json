@@ -59,6 +59,7 @@
   },
   "dependencies": {
     "@theojs/lumen": "^5.4.0",
+    "@vueuse/core": "^13.1.0",
     "child_process": "^1.0.2",
     "element-plus": "^2.9.7",
     "flexsearch": "^0.7.43",

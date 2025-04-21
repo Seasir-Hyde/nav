@@ -134,6 +134,12 @@ export const NAV_DATA: NavData[] = [
         desc: '必须是32位小写',
         link: 'http://www.jsons.cn/md5/s/',
       },
+      {
+        icon: 'https://bfotool.com/images/logo.png?v=2.0.1',
+        title: 'CURL 生成器 ',
+        desc: '在线代码到 CURL',
+        link: 'https://bfotool.com/zh/curl-generator',
+      },
     ],
   },
 
