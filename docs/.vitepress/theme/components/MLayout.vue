@@ -16,9 +16,11 @@ import MouseClick from './MouseClick.vue' // 鼠标点击效果
 // @ts-ignore
 import MouseFollower from './MouseFollower.vue' // 鼠标跟随效果
 import loadOml2d from './loadOml2d.vue' // 加载oml2d
-import { useTitleChange } from "./titleChange" //导入动态标题
+// @ts-ignore
+import TitleChange from "./TitleChange.vue"; //导入网页标题变化
+// @ts-ignore
+import ScrollProgressBar from "./ScrollProgressBar.vue"; //导入顶部滚动条组件
 
-useTitleChange();//动态标题函数
 const { Layout } = DefaultTheme
 const { isDark, theme, frontmatter } = useData()
 const pageId = usePageId()
@@ -66,6 +68,8 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 </script>
 
 <template>
+  <!--网页标题变化组件  -->
+  <TitleChange />
   <Layout v-bind="$attrs">
     <!--
       相关插槽
@@ -75,6 +79,8 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     <template #layout-top>
       <MouseFollower />
       <MouseClick />
+      <!-- 顶部滚动条组件 -->
+      <ScrollProgressBar />
       <loadOml2d />
     </template>
 

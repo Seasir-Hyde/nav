@@ -82,7 +82,7 @@ export const HeadData = [
     `
     function runtime(){
     // 初始时间，日/月/年 时:分:秒
-    const X = new Date("3/10/2022 15:32:00");
+    const X = new Date("5/24/2024 15:32:00");
     const Y = new Date();
     const T = (Y.getTime()-X.getTime());
     const M = 24*60*60*1000;
