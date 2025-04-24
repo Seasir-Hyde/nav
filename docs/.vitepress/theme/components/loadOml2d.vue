@@ -141,7 +141,7 @@ onMounted(async () => {
                         window.open("https://github.com/hacxy");
                     }
                 },
-                
+
             ]
         },
 
@@ -270,7 +270,7 @@ onMounted(async () => {
         oml2d.stopTipsIdle(); //停止空闲消息播放器
 
         oml2d.tipsMessage(
-            `欢迎访问我的博客，当前版本:${oml2d.version}`, 5000, 10
+            `欢迎访问内部导航网，当前版本:${oml2d.version}`, 5000, 10
         );
     })
 

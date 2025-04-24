@@ -106,6 +106,14 @@ export const HeadData = [
 
     `,
   ],
+  // 自建不蒜子统计
+  [
+    'script',
+    {
+      src: 'https://busuanzi.9420.ltd/js',
+      async: 'defer',
+    },
+  ],
   // 鼠标爆炸效果
   // [
   //   'script',
