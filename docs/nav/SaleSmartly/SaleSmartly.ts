@@ -129,6 +129,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.json.cn',
       },
       {
+        icon: 'https://cdn.apifox.com/app/project-icon/builtin/13.jpg',
+        title: '对内api调试网站',
+        desc: '密码：P@ssw0rd',
+        link: 'https://nrk7l0jdyi.apifox.cn/288815698e0',
+      },
+      {
         icon: 'http://www.jsons.cn/Style/images/logo_old.png?1',
         title: 'MD5在线加密',
         desc: '必须是32位小写',
