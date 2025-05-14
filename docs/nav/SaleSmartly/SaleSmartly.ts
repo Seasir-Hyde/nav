@@ -104,6 +104,12 @@ export const NAV_DATA: NavData[] = [
         desc: '客户满意度评价登录',
         link: 'https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGEN1kY7t9j77Q1586EDybno?corpId=dingf9adfa24336a8264f2c783f7214b6d69&utm_medium=im_card&cid=48209522929&iframeQuery=utm_medium%253Dim_card%2526utm_source%253Dim&utm_scene=person_space&utm_source=im',
       },
+      {
+        icon: icon_DingTalk_Url,
+        title: '集成问题',
+        desc: '平时接待过程中有遇到老板咨询集成的一些官方问题不知道如何解答的，可以登记在这个表格',
+        link: 'https://alidocs.dingtalk.com/i/nodes/amweZ92PV6v25w36UrqN4erYVxEKBD6p?iframeQuery=',
+      },
     ],
   },
 
