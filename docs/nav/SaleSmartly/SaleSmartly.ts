@@ -1,5 +1,5 @@
 import type { NavLink } from '../../.vitepress/theme/types'
-
+import { Webhook } from '../icon/icon'
 // 钉钉文档图标
 const icon_DingTalk_Url =
   'https://img.alicdn.com/imgextra/i3/O1CN01WVKxVr22NW6oPUd9C_!!6000000007108-2-tps-96-96.png'
@@ -15,6 +15,8 @@ const Number_of_sessions_per_month =
 // 定义满意度均值变量
 const Satisfaction_Average =
   'https://webb.adspower.com/d/i_EIWM9Sz/02_03_ss-_xiang-ying-hui-hua-shu-_an-yue-xin-ban?viewPanel=41&var-dm=2025-05&var-project_name=All&var-group_name=%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81%E7%BB%84&var-nickname=All&var-channel=All&var-plugin_page_name=All&var-tag=All&var-lang=All&var-project_id=1&var-region=All&var-project_id_copy=All&var-start_hour=All&var-end_hour=All&var-juge_end_type=All&orgId=3'
+
+// webkook图标
 
 type NavData = {
   title: string
@@ -119,26 +121,38 @@ export const NAV_DATA: NavData[] = [
       {
         icon: 'https://cdn.apifox.com/app/project-icon/builtin/19.jpg',
         title: 'SaleSmartly api接口',
-        desc: '企业版套餐api接口',
+        desc: 'Max套餐api v1旧接口',
         link: 'https://apifox.com/apidoc/shared-3e66aa38-1e0a-40c7-bf58-c350da69bcb7',
+      },
+      {
+        icon: 'https://cdn.apifox.com/app/project-icon/builtin/6.jpg',
+        title: 'SaleSmartly api接口',
+        desc: 'Max套餐api v2新接口',
+        link: 'https://apifox.com/apidoc/shared/34c8826e-4d12-4dd4-bf05-661f7fec9a92',
       },
       {
         icon: 'https://cdn.apifox.com/app/project-icon/builtin/18.jpg',
         title: 'Webhook接口文档',
-        desc: 'webhook不需要单独付费 可以理解和专属链接一样都是高级功能 只有企业版才能使用',
+        desc: 'Webhook不需要单独付费 可以理解和专属链接一样都是高级功能 只有Max才能使用',
         link: 'https://apifox.com/apidoc/shared-c1f4db0d-60eb-42c7-98f7-66c65bc09fdf',
-      },
-      {
-        icon: '/icons/json-cn.ico',
-        title: 'Json 中文网',
-        desc: 'JSON 在线解析及格式化验证',
-        link: 'https://www.json.cn',
       },
       {
         icon: 'https://cdn.apifox.com/app/project-icon/builtin/13.jpg',
         title: '对内api调试网站',
         desc: '密码：P@ssw0rd',
         link: 'https://nrk7l0jdyi.apifox.cn/288815698e0',
+      },
+      {
+        icon: { svg: Webhook },
+        title: 'Webhook工具',
+        desc: '查看webhook的主动收信和 消息更新事件',
+        link: 'https://flying-mayfly-ruling.ngrok-free.app/',
+      },
+      {
+        icon: '/icons/json-cn.ico',
+        title: 'Json 中文网',
+        desc: 'JSON 在线解析及格式化验证',
+        link: 'https://www.json.cn',
       },
       {
         icon: 'http://www.jsons.cn/Style/images/logo_old.png?1',
