@@ -91,6 +91,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://developers.facebook.com/docs/whatsapp',
       },
       {
+        icon: icon_Meta_Url,
+        title: '营销信息精简版 API',
+        desc: '是一种直接营销 API，可提供传递（现已推出）和阅读和点击（即将推出）的自动优',
+        link: 'https://developers.facebook.com/docs/whatsapp/marketing-messages-lite-api',
+      },
+      {
         icon: icon_Instagram_Url,
         title: 'Instagram 消息 入门指南',
         desc: '调用支持 Instagram 的 Messenger API（也将之称为 Instagram 消息 API）',

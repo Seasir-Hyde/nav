@@ -112,6 +112,12 @@ export const NAV_DATA: NavData[] = [
         desc: '平时接待过程中有遇到老板咨询集成的一些官方问题不知道如何解答的，可以登记在这个表格',
         link: 'https://alidocs.dingtalk.com/i/nodes/amweZ92PV6v25w36UrqN4erYVxEKBD6p?iframeQuery=',
       },
+      {
+        icon: icon_DingTalk_Url,
+        title: '外部请求问题收集',
+        desc: '遇到关于外部请求的问题都可以集中填写在这个文档里',
+        link: 'https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbjGpxnLTLnvzmaRJMGjLRb3?utm_scene=person_space',
+      },
     ],
   },
 
